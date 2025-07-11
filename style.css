@@ -195,3 +195,39 @@ main{
   font-size: 20px;
   color: #6c6c6c;
 }
+footer {
+  background-color: #ffffff;
+  padding: 80px 150px;
+  text-align: center;
+  position: relative;
+}
+footer .logo {
+  font-size: 96px;
+  font-weight: 800;
+  text-align: center;
+  color: #4e4eff;
+}
+
+footer .txt {
+  font-size: 16px;
+  text-align: center;
+  color: #6c6c6c;
+  margin: 12px 0;
+}
+
+footer .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+footer .footer-links a {
+  font-size: 14px;
+  color: #6c6c6c;
+  text-decoration: none;
+
+}
+
+footer .footer-links a:hover {
+  text-decoration: underline;
+}
