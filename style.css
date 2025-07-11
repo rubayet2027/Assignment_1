@@ -147,6 +147,7 @@ main{
 .action-image {
   flex: 1;
   text-align: right;
+  
 }
 
 .action-image img {
@@ -195,6 +196,78 @@ main{
   font-size: 20px;
   color: #6c6c6c;
 }
+.testimonials {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  color: #2b2b2b;
+  margin-bottom: 30px;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.stars {
+  color: #f8b400;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.testimonial-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.testimonial-card p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.reviewer-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.reviewer-info .name {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.reviewer-info .date {
+  font-size: 0.8rem;
+  color: #999;
+}
+
 footer {
   background-color: #ffffff;
   padding: 80px 150px;
