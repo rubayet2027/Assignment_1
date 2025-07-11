@@ -13,12 +13,15 @@
 }
 
 body {
-  
-  background: #f4f4fc url('images/Hero-bg.png') no-repeat  center center/cover;
   color: #000;
   min-height: 100vh;
-  padding: 80px 150px;
+  
   position: relative;
+}
+.banner-section {
+  padding: 80px 150px;
+  background: #f4f4fc url('images/Hero-bg.png') no-repeat center center/cover;
+  min-height: 100vh;
 }
 
 /* Header */
@@ -86,4 +89,60 @@ body {
 
 .cta-btn:hover {
   background-color: #7d7dd2;
+}
+main{
+    background-color: #f5f7ff;
+}
+/* See It in Action Section */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.action-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.action-text h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1f1f1f;
+}
+
+.action-text p {
+  font-size: 24px;
+  color: #6c6c6c;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.action-btn {
+  background-color: #4e4eff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #7d7dd2;
+}
+
+.action-image {
+  flex: 1;
+  text-align: right;
+}
+
+.action-image img {
+  max-width: 100%;
+  border-radius: 24px;
 }
