@@ -153,7 +153,9 @@ main{
 .action-image img {
   max-width: 100%;
   border-radius: 24px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.667);
 }
+
 /* Stats Section */
 .stats-section {
   background-color: #4d47ff26;
@@ -198,7 +200,7 @@ main{
 }
 .testimonials {
   text-align: center;
-  padding: 40px 20px;
+  padding: 160px 20px;
 }
 
 .testimonials h2 {
@@ -266,6 +268,65 @@ main{
 .reviewer-info .date {
   font-size: 0.8rem;
   color: #999;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.contact-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.contact-text h1 {
+  font-size: 96px;
+  font-weight: 800;
+  color: #1f1f1f;
+}
+
+.contact-form {
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form label {
+  font-weight: 500;
+  color: #1f1f1f;
+  margin-bottom: 4px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.contact-btn {
+  background-color: #4e4eff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #7d7dd2;
 }
 
 footer {
